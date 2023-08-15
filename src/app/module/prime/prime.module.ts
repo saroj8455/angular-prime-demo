@@ -4,8 +4,8 @@ import { ButtonModule } from 'primeng/button';
 import { CalendarModule } from 'primeng/calendar';
 import { EditorModule } from 'primeng/editor';
 import { CardModule } from 'primeng/card';
-
-
+import { ToolbarModule } from 'primeng/toolbar';
+import { MenubarModule } from 'primeng/menubar';
 @NgModule({
   declarations: [],
   exports: [
@@ -13,7 +13,9 @@ import { CardModule } from 'primeng/card';
     ButtonModule,
     CalendarModule,
     EditorModule,
-    CardModule
+    CardModule,
+    ToolbarModule,
+    MenubarModule
   ]
 })
 export class PrimeModule { }
