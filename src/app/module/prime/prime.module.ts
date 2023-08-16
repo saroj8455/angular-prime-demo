@@ -10,6 +10,7 @@ import {ChipModule} from "primeng/chip";
 import {SkeletonModule} from "primeng/skeleton";
 import {ProgressSpinnerModule} from "primeng/progressspinner";
 import {GalleriaModule} from "primeng/galleria";
+import {InputTextModule} from "primeng/inputtext";
 @NgModule({
   declarations: [],
   exports: [
@@ -22,7 +23,8 @@ import {GalleriaModule} from "primeng/galleria";
     MenubarModule,ChipModule,
     SkeletonModule,
     ProgressSpinnerModule,
-    GalleriaModule
+    GalleriaModule,
+    InputTextModule
   ]
 })
 export class PrimeModule { }

@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
+   username: string ="";
+   password: string ="";
+
+   checkAuth() {
+     let status="";
+     if (!this.username || !this.password) {
+       alert("Username and Password is required")
+       return;
+     }
+     if(this.username && this.password) {
+       // todo api call for check the user is valid or not
+       console.log("hi")
+     }
+     status = "Error message coming from api point"
+     console.log(status)
+   }
 
 }

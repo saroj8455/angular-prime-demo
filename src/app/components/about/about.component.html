@@ -1,1 +1,9 @@
-<p>about works!</p>
+<div class="card flex justify-content-center">
+  <input type="text" pInputText [(ngModel)]="username" />
+</div>
+<div class="card flex justify-content-center my-3">
+  <input type="text" pInputText [(ngModel)]="password" />
+</div>
+<div class="card flex justify-content-center">
+  <p-button label="Submit" (onClick)="checkAuth()"></p-button> {{username}}
+</div>
