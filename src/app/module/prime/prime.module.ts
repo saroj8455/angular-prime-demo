@@ -6,6 +6,10 @@ import { EditorModule } from 'primeng/editor';
 import { CardModule } from 'primeng/card';
 import { ToolbarModule } from 'primeng/toolbar';
 import { MenubarModule } from 'primeng/menubar';
+import {ChipModule} from "primeng/chip";
+import {SkeletonModule} from "primeng/skeleton";
+import {ProgressSpinnerModule} from "primeng/progressspinner";
+import {GalleriaModule} from "primeng/galleria";
 @NgModule({
   declarations: [],
   exports: [
@@ -15,7 +19,10 @@ import { MenubarModule } from 'primeng/menubar';
     EditorModule,
     CardModule,
     ToolbarModule,
-    MenubarModule
+    MenubarModule,ChipModule,
+    SkeletonModule,
+    ProgressSpinnerModule,
+    GalleriaModule
   ]
 })
 export class PrimeModule { }
