@@ -11,6 +11,8 @@ import {SkeletonModule} from "primeng/skeleton";
 import {ProgressSpinnerModule} from "primeng/progressspinner";
 import {GalleriaModule} from "primeng/galleria";
 import {InputTextModule} from "primeng/inputtext";
+import {InputTextareaModule} from "primeng/inputtextarea";
+import {DropdownModule} from "primeng/dropdown";
 @NgModule({
   declarations: [],
   exports: [
@@ -24,7 +26,9 @@ import {InputTextModule} from "primeng/inputtext";
     SkeletonModule,
     ProgressSpinnerModule,
     GalleriaModule,
-    InputTextModule
+    InputTextModule,
+    InputTextareaModule,
+    DropdownModule
   ]
 })
 export class PrimeModule { }
