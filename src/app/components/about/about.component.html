@@ -62,4 +62,7 @@
   <div class="card flex justify-content-center">
     <p-button label="Submit" icon="pi pi-check"  (onClick)="checkAuth()"></p-button> {{username}}
   </div>
+<div class="card flex justify-content-center">
+  <label for="ny">New York </label>
+  <p-rating [(ngModel)]="value" [cancel]="false" id="ny"></p-rating>
 </div>

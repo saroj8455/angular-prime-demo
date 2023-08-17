@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AboutComponent {
    username: string ="";
    password: string ="";
+  value?:number;
 
   cities = [
     { name: 'New York', code: 'NY' },

@@ -13,6 +13,7 @@ import {GalleriaModule} from "primeng/galleria";
 import {InputTextModule} from "primeng/inputtext";
 import {InputTextareaModule} from "primeng/inputtextarea";
 import {DropdownModule} from "primeng/dropdown";
+import {RatingModule} from "primeng/rating";
 @NgModule({
   declarations: [],
   exports: [
@@ -28,7 +29,8 @@ import {DropdownModule} from "primeng/dropdown";
     GalleriaModule,
     InputTextModule,
     InputTextareaModule,
-    DropdownModule
+    DropdownModule,
+    RatingModule
   ]
 })
 export class PrimeModule { }
